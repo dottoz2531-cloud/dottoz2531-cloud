@@ -9,7 +9,7 @@
     public static function calTotalPrice() {
       $sum = 0;
       foreach(self::$items as item){
-        $item["product"]->getPrice() * $item["count"];
+        $price = $item["product"]->getPrice() * $item["count"];
         $sum = $sum + $price;
       }
       return $sum;

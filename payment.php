@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./style.css" >
+  <link rel="stylesheet" type="text/css" href="./style.css?2" >
   <title>デイトラ PHP</title>
 </head>
 <body>
@@ -13,13 +13,13 @@
         <image src="./images/icons/check.svg">
         <p class="title">決済が完了しました</p>
       </div>
+      <form method ="post" action="payment.php">
       <div class="btn-footer bg-gray">
         <a href="/" class="checkout-btn">
           トップに戻る
         </a>
       </div>
     </div>
-
   </div>
 </body>
 </html>
