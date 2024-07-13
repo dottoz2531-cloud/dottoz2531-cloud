@@ -1,5 +1,4 @@
 <?php require_once 'products.php' ?>
-<?php require_once 'functions.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,3 +32,4 @@
   </div>
 </body>
 </html>
+

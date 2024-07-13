@@ -1,5 +1,4 @@
-<?php require_once 'products.php' ?>
-<?php
+<?php require_once 'products.php' ;
   require_once 'classes/cart.php';
   foreach($products as $product) {
     Cart::add($product, $_POST[$product->getId()]);
